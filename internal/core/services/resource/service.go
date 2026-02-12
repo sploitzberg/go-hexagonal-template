@@ -12,8 +12,8 @@ import (
 // Service implements ports.ResourceService (driver port).
 // It orchestrates business logic using driven ports (Hasher, ResourceRepository).
 type Service struct {
-	hasher   ports.Hasher
-	repo     ports.ResourceRepository
+	hasher ports.Hasher
+	repo   ports.ResourceRepository
 }
 
 // NewService wires the core to its driven ports via dependency injection.
