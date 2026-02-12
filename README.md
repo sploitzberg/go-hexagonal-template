@@ -57,14 +57,14 @@ See [cmd/architecture/HEXAGONAL.md](cmd/architecture/HEXAGONAL.md) for the full 
 
 ## Development
 
-| Command | Description |
-|---------|-------------|
-| `make run` | Run the app |
-| `make test` | Run tests |
-| `make build` | Build to `bin/app` |
+| Command          | Description                     |
+| ---------------- | ------------------------------- |
+| `make run`       | Run the app                     |
+| `make test`      | Run tests                       |
+| `make build`     | Build to `bin/app`              |
 | `make build-all` | Cross-compile for all platforms |
-| `make clean` | Remove `bin/` |
-| `make help` | Show targets |
+| `make clean`     | Remove `bin/`                   |
+| `make help`      | Show targets                    |
 
 - **Format**: `go fmt ./...`
 - **Lint**: `go vet ./...` or `golangci-lint run`
@@ -72,10 +72,10 @@ See [cmd/architecture/HEXAGONAL.md](cmd/architecture/HEXAGONAL.md) for the full 
 
 ## Documentation
 
-| Document | Purpose |
-|----------|---------|
-| [cmd/architecture/HEXAGONAL.md](cmd/architecture/HEXAGONAL.md) | Hexagonal pattern, how to add ports/adapters/services |
-| [AGENTS.md](AGENTS.md) | Build commands, conventions, subagents, skills, commands |
+| Document                                                       | Purpose                                                  |
+| -------------------------------------------------------------- | -------------------------------------------------------- |
+| [cmd/architecture/HEXAGONAL.md](cmd/architecture/HEXAGONAL.md) | Hexagonal pattern, how to add ports/adapters/services    |
+| [AGENTS.md](AGENTS.md)                                         | Build commands, conventions, subagents, skills, commands |
 
 ## Requirements
 
